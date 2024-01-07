@@ -121,7 +121,7 @@ The ID follows a specific format, starting with a designated letter assigned to 
 
 ## Contribution
 
-If you wish to contribute to this project, fork the repository, implement your changes, and submit a pull request. The project is licensed under the terms of the Mozilla Public License 2.0.
+If you wish to contribute to this project, fork the repository, implement your changes, and submit a pull request. The project is licensed under the terms of the GNU Affero General Public License v3.0.
 
 For more information about the license, please refer to the [LICENSE](LICENSE) file in the project.
 
