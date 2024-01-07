@@ -37,8 +37,8 @@ func ConnectMongoDB() (*mongo.Client, *mongo.Collection, error) {
 	db := mongoClient.Database(dbName)
 
 	collectionName := os.Getenv("COLLECTION_NAME")
-	productsCollection := db.Collection(collectionName)
-	return client, productsCollection, nil
+	collection := db.Collection(collectionName)
+	return client, collection, nil
 }
 
 func DisconnectMongoDB(client *mongo.Client) {
