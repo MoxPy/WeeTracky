@@ -47,7 +47,7 @@
 
 ## Models
 
-Supply Track employs a well-structured set of models to represent key entities in the supply chain management system. Each model encapsulates specific attributes and relationships, enhancing the clarity and organization of the underlying data.
+WeeTracky employs a well-structured set of models to represent key entities in the supply chain management system. Each model encapsulates specific attributes and relationships, enhancing the clarity and organization of the underlying data.
 
 #### Product
 
