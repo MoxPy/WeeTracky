@@ -17,7 +17,7 @@
     /products/all: Retrieve a list of all products.
     /products/find-product?id=productid: Find a specific product by ID.
     /products/find-by-material?material_id=materialid: Retrieve products based on the material used.
-    /products/delete-product: Delete a product.
+    /products/delete-product?id=productid: Delete a product.
 
 #### Materials
 
@@ -26,7 +26,7 @@
     /materials/all: Retrieve a list of all materials.
     /materials/find-material?id=materialid: Find a specific material by ID.
     /materials/find-by-supplier?supplier_id=supplierid: Retrieve materials based on the supplier.
-    /materials/delete-material: Delete a material.
+    /materials/delete-material?id=materialid: Delete a material.
 
 #### Suppliers
 
@@ -34,7 +34,7 @@
     /suppliers/update: Update an existing supplier.
     /suppliers/all: Retrieve a list of all suppliers.
     /suppliers/find-supplier?id=supplierid: Find a specific supplier by ID.
-    /suppliers/delete-supplier: Delete a supplier.
+    /suppliers/delete-supplier?id=supplierid: Delete a supplier.
 
 #### Certifications
 
