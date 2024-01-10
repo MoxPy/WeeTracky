@@ -15,8 +15,8 @@
     /products/add: Add a new product to the system.
     /products/update: Update an existing product.
     /products/all: Retrieve a list of all products.
-    /products/find-product: Find a specific product by ID.
-    /products/find-by-material: Retrieve products based on the material used.
+    /products/find-product?id=productid: Find a specific product by ID.
+    /products/find-by-material?material_id=materialid: Retrieve products based on the material used.
     /products/delete-product: Delete a product.
 
 #### Materials
@@ -24,8 +24,8 @@
     /materials/add: Add a new material to the system.
     /materials/update: Update an existing material.
     /materials/all: Retrieve a list of all materials.
-    /materials/find-material: Find a specific material by ID.
-    /materials/find-by-supplier: Retrieve materials based on the supplier.
+    /materials/find-material?id=materialid: Find a specific material by ID.
+    /materials/find-by-supplier?supplier_id=supplierid: Retrieve materials based on the supplier.
     /materials/delete-material: Delete a material.
 
 #### Suppliers
@@ -33,7 +33,7 @@
     /suppliers/add: Add a new supplier to the system.
     /suppliers/update: Update an existing supplier.
     /suppliers/all: Retrieve a list of all suppliers.
-    /suppliers/find-supplier: Find a specific supplier by ID.
+    /suppliers/find-supplier?id=supplierid: Find a specific supplier by ID.
     /suppliers/delete-supplier: Delete a supplier.
 
 #### Certifications
