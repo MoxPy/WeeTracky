@@ -4,6 +4,7 @@ import (
 	"context"
 	"encoding/json"
 	"errors"
+	"fmt"
 	"go.mongodb.org/mongo-driver/bson"
 	"go.mongodb.org/mongo-driver/mongo"
 	"golang.org/x/text/cases"
@@ -89,4 +90,16 @@ func (c *CertModel) GetAll() ([]Cert, error) {
 	}
 
 	return certs, nil
+}
+
+// TODO: todo
+func (c *CertModel) GetOne(id string) (*Cert, error) {
+	return nil, fmt.Errorf("not implemented")
+}
+func (c *CertModel) Update(cert Cert) error {
+	return fmt.Errorf("not implemented")
+}
+
+func (c *CertModel) DeleteOne(id string) error {
+	return fmt.Errorf("not implemented")
 }
