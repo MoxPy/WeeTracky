@@ -18,7 +18,7 @@ type Cert struct {
 	Id      string `json:"id" bson:"id"`
 	Name    string `json:"name" bson:"name"`
 	Issuer  string `json:"issuer" bson:"issuer"`
-	Details string `json:"details" bson:"details" default:"No details"`
+	Details string `json:"details" bson:"details"`
 }
 
 type CertModel struct {

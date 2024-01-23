@@ -20,8 +20,8 @@ type Product struct {
 	MadeIn             string     `json:"made_in" bson:"made_in"`
 	Materials          []Material `json:"materials" bson:"materials"`
 	Price              float64    `json:"price" bson:"price"`
-	Description        string     `json:"description" bson:"description" default:"No Description"`
-	SustainablePackage bool       `json:"sustainablePackage" bson:"sustainablePackage" default:"false"`
+	Description        string     `json:"description" bson:"description"`
+	SustainablePackage bool       `json:"sustainablePackage" bson:"sustainablePackage"`
 }
 
 type ProductModel struct {
