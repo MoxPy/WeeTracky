@@ -28,11 +28,11 @@ func main() {
 	}
 	defer db.DisconnectMongoDB(client)
 
-	productsEnv := &handlers.ProductsEnv{Products: &models.ProductModel{DB: client, COLLECTION: collection}}
-	materialsEnv := &handlers.MaterialsEnv{Materials: &models.MaterialModel{DB: client, COLLECTION: collection}}
-	suppliersEnv := &handlers.SuppliersEnv{Suppliers: &models.SupplierModel{DB: client, COLLECTION: collection}}
-	certsEnv := &handlers.CertsEnv{Certs: &models.CertModel{DB: client, COLLECTION: collection}}
-	companyEnv := &handlers.CompanyEnv{Company: &models.CompanyModel{DB: client, COLLECTION: collection}}
+	productsEnv := &handlers.ProductsEnv{Products: &models.ProductModel{COLLECTION: collection}}
+	materialsEnv := &handlers.MaterialsEnv{Materials: &models.MaterialModel{COLLECTION: collection}}
+	suppliersEnv := &handlers.SuppliersEnv{Suppliers: &models.SupplierModel{COLLECTION: collection}}
+	certsEnv := &handlers.CertsEnv{Certs: &models.CertModel{COLLECTION: collection}}
+	companyEnv := &handlers.CompanyEnv{Company: &models.CompanyModel{COLLECTION: collection}}
 
 	mux := http.NewServeMux()
 	routes.ProductsRouter(mux, productsEnv)

@@ -25,7 +25,6 @@ type Product struct {
 }
 
 type ProductModel struct {
-	DB         *mongo.Client
 	COLLECTION *mongo.Collection
 }
 

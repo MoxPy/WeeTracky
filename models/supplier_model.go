@@ -22,7 +22,6 @@ type Supplier struct {
 }
 
 type SupplierModel struct {
-	DB         *mongo.Client
 	COLLECTION *mongo.Collection
 }
 

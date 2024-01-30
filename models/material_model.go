@@ -25,7 +25,6 @@ type Material struct {
 }
 
 type MaterialModel struct {
-	DB         *mongo.Client
 	COLLECTION *mongo.Collection
 }
 

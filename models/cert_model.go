@@ -22,7 +22,6 @@ type Cert struct {
 }
 
 type CertModel struct {
-	DB         *mongo.Client
 	COLLECTION *mongo.Collection
 }
 

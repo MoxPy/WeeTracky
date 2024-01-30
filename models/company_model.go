@@ -18,7 +18,6 @@ type Company struct {
 }
 
 type CompanyModel struct {
-	DB         *mongo.Client
 	COLLECTION *mongo.Collection
 }
 
